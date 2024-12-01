@@ -11,6 +11,7 @@ fn main() {
 
     match day {
         1 => day1::solve_day1(),
+        2 => day1::solve_day2(),
         _ => println!("Invalid day. Please enter a number between 1 and 25."),
     }
 }
