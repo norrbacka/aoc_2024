@@ -1,6 +1,6 @@
 use std::fs;
 
-pub fn solve_day1() {
+pub fn solve() {
     let file_path = "src/2024_01.txt";
 
     match fs::read_to_string(file_path) {

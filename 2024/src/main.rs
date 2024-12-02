@@ -1,5 +1,6 @@
 use std::io;
 mod day1;
+mod day2;
 
 fn main() {
     println!("Enter the day to run (1-25):");
@@ -10,8 +11,8 @@ fn main() {
     let day: u32 = input.trim().parse().expect("Invalid input. Please enter a number.");
 
     match day {
-        1 => day1::solve_day1(),
-        2 => day1::solve_day2(),
+        1 => day1::solve(),
+        2 => day2::solve(),
         _ => println!("Invalid day. Please enter a number between 1 and 25."),
     }
 }
