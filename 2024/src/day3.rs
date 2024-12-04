@@ -4,7 +4,7 @@ use regex::Regex;
 fn process_matches(contents: &str) -> i32 {
     let re = Regex::new(r"mul\((\d+),(\d+)\)").expect("Invalid regex");
     let matches = re.find_iter(&contents).map(|m| {
-        let mut matched_str = m.as_str(); 
+        let matched_str = m.as_str(); 
         println!("Matched string: {}", matched_str); 
 
         let binding = matched_str

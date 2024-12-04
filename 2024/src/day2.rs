@@ -1,7 +1,7 @@
 use std::fs;
 
 fn check_sequence(parts: &[u32]) -> bool {
-    let mut increasing: bool = parts[1] > parts[0];
+    let increasing: bool = parts[1] > parts[0];
     
     if increasing {
         for i in 1..parts.len() {
