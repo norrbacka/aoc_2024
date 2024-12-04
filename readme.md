@@ -35,3 +35,13 @@ Using his skills, the coder scans the corrupted memory to extract all valid `mul
 As he digs deeper, he notices additional commands: `do()` and `don't()`, which enable or disable future `mul` instructions. Respecting these new rules, he recalculates the sum of the enabled multiplications and arrives at **102,467,299**.
 
 With the computers restored and functioning, the shopkeeper is elated. The elves can now access the inventory, aiding in the search for the Chief Historian. Thanks to the coder's expertise, the North Pole's holiday preparations continue smoothly, bringing joy and magic to the season.
+
+![alt text](image-3.png)
+# Chapter 4 - Ceres Search
+With a flick of a mysterious device, the team is transported to the shimmering Ceres Monitoring Station, nestled among twinkling stars. The snow glistens outside as the Senior Elvish Historians search every corner for the missing Chief Historian. Amidst the magical glow, a petite elf named Lumi tugs on the coder’s sleeve. “Can you help me with this enchanted word search?” she asks, her eyes sparkling.
+
+The grid before them is a maze of letters, where “XMAS” hides in every direction—horizontal, vertical, diagonal, and even overlapping. Lumi explains, “I need to find all the XMAS instances to unlock the station’s festive charms.” With a wave of his fingers, the coder scans the magical letters, uncovering 2,336 hidden “XMAS” spells. The grid lights up, filling the room with joyous Christmas magic.
+
+But Lumi giggles, “Wait! It’s actually an X-MAS puzzle.” Adjusting his approach, the coder now searches for two “MAS” forming an X, finding 1,831 magical patterns. The station glows brighter, revealing a trail of twinkling lights leading closer to the Chief Historian.
+
+Thanks to the coder’s cleverness and Lumi’s festive spirit, the North Pole’s magic flourishes, bringing hope and joy as Christmas approaches.
