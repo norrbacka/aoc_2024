@@ -16,6 +16,8 @@ pub fn solve() {
                     .collect::<Vec<String>>())
                 .collect();
 
+            // compute all columns, rows and diagonals as strings backwards and forwards and then count xmas
+
             let mut count: i32 = 0;
 
             let y_size = parsed.len();
@@ -91,6 +93,7 @@ pub fn solve() {
                 .sum();
             println!("Day 4.1 {}", count);
 
+            // compute all 3x3 matrices as 9 char long string, and through a regex, check if that 9 char string is a match for the x-mas pattern by using all possible x-mas:es
             words.clear();
 
             for i in 0..(x_size - 2) {
