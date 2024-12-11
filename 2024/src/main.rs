@@ -9,6 +9,7 @@ mod day7;
 mod day8;
 mod day9;
 mod day10;
+mod day11;
 
 fn main() {
     println!("Enter the day to run (1-25):");
@@ -29,6 +30,7 @@ fn main() {
         8 => day8::solve(),
         9 => day9::solve(),
         10 => day10::solve(),
+        11 => day11::solve(),
         _ => println!("Invalid day. Please enter a number between 1 and 25."),
     }
 }
